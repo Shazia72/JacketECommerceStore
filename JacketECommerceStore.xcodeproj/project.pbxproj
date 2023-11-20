@@ -11,6 +11,21 @@
 		EE0CD0B42B082D22007D6DDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CD0B32B082D22007D6DDD /* ContentView.swift */; };
 		EE0CD0B62B082D24007D6DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0CD0B52B082D24007D6DDD /* Assets.xcassets */; };
 		EE0CD0B92B082D24007D6DDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0CD0B82B082D24007D6DDD /* Preview Assets.xcassets */; };
+		EE0CD0C62B0AC746007D6DDD /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CD0C52B0AC746007D6DDD /* ProductCard.swift */; };
+		EE0CD0C82B0AC775007D6DDD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CD0C72B0AC775007D6DDD /* Product.swift */; };
+		EE0CD0CA2B0AC7D0007D6DDD /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CD0C92B0AC7D0007D6DDD /* CartManager.swift */; };
+		EE0CD0CE2B0ACB13007D6DDD /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CD0CD2B0ACB13007D6DDD /* CartView.swift */; };
+		EE0CD0D02B0ACB45007D6DDD /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CD0CF2B0ACB45007D6DDD /* ProductRow.swift */; };
+		EE0CD0D22B0ACBF3007D6DDD /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CD0D12B0ACBF3007D6DDD /* PaymentButton.swift */; };
+		EE0CD0D42B0ACC1C007D6DDD /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CD0D32B0ACC1C007D6DDD /* CartButton.swift */; };
+		EE0CD0D62B0ACC77007D6DDD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CD0D52B0ACC77007D6DDD /* HomeView.swift */; };
+		EE0CD0D82B0ACE4F007D6DDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE0CD0D72B0ACE4F007D6DDD /* GoogleService-Info.plist */; };
+		EE0CD0DB2B0ACEFB007D6DDD /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CD0DA2B0ACEFB007D6DDD /* FirebaseAnalytics */; };
+		EE0CD0DD2B0ACEFB007D6DDD /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CD0DC2B0ACEFB007D6DDD /* FirebaseAnalyticsOnDeviceConversion */; };
+		EE0CD0DF2B0ACEFB007D6DDD /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CD0DE2B0ACEFB007D6DDD /* FirebaseAnalyticsSwift */; };
+		EE0CD0E12B0ACEFB007D6DDD /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CD0E02B0ACEFB007D6DDD /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		EE0CD0E32B0ACEFB007D6DDD /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CD0E22B0ACEFB007D6DDD /* FirebaseAppCheck */; };
+		EE0CD0E62B0ACF22007D6DDD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CD0E52B0ACF22007D6DDD /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +34,15 @@
 		EE0CD0B32B082D22007D6DDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE0CD0B52B082D24007D6DDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE0CD0B82B082D24007D6DDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE0CD0C52B0AC746007D6DDD /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		EE0CD0C72B0AC775007D6DDD /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		EE0CD0C92B0AC7D0007D6DDD /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		EE0CD0CD2B0ACB13007D6DDD /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		EE0CD0CF2B0ACB45007D6DDD /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		EE0CD0D12B0ACBF3007D6DDD /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		EE0CD0D32B0ACC1C007D6DDD /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		EE0CD0D52B0ACC77007D6DDD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EE0CD0D72B0ACE4F007D6DDD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +50,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0CD0DF2B0ACEFB007D6DDD /* FirebaseAnalyticsSwift in Frameworks */,
+				EE0CD0E62B0ACF22007D6DDD /* FirebaseAuth in Frameworks */,
+				EE0CD0DB2B0ACEFB007D6DDD /* FirebaseAnalytics in Frameworks */,
+				EE0CD0DD2B0ACEFB007D6DDD /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				EE0CD0E32B0ACEFB007D6DDD /* FirebaseAppCheck in Frameworks */,
+				EE0CD0E12B0ACEFB007D6DDD /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +67,7 @@
 			children = (
 				EE0CD0B02B082D22007D6DDD /* JacketECommerceStore */,
 				EE0CD0AF2B082D22007D6DDD /* Products */,
+				EE0CD0E42B0ACF22007D6DDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,9 +83,13 @@
 			isa = PBXGroup;
 			children = (
 				EE0CD0B12B082D22007D6DDD /* JacketECommerceStoreApp.swift */,
-				EE0CD0B32B082D22007D6DDD /* ContentView.swift */,
+				EE0CD0D72B0ACE4F007D6DDD /* GoogleService-Info.plist */,
+				EE0CD0BF2B0AC519007D6DDD /* Views */,
+				EE0CD0C02B0AC543007D6DDD /* Components */,
+				EE0CD0C12B0AC551007D6DDD /* Models */,
 				EE0CD0B52B082D24007D6DDD /* Assets.xcassets */,
 				EE0CD0B72B082D24007D6DDD /* Preview Content */,
+				EE0CD0C92B0AC7D0007D6DDD /* CartManager.swift */,
 			);
 			path = JacketECommerceStore;
 			sourceTree = "<group>";
@@ -65,6 +100,42 @@
 				EE0CD0B82B082D24007D6DDD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE0CD0BF2B0AC519007D6DDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE0CD0B32B082D22007D6DDD /* ContentView.swift */,
+				EE0CD0CD2B0ACB13007D6DDD /* CartView.swift */,
+				EE0CD0CF2B0ACB45007D6DDD /* ProductRow.swift */,
+				EE0CD0D52B0ACC77007D6DDD /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE0CD0C02B0AC543007D6DDD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EE0CD0C52B0AC746007D6DDD /* ProductCard.swift */,
+				EE0CD0D12B0ACBF3007D6DDD /* PaymentButton.swift */,
+				EE0CD0D32B0ACC1C007D6DDD /* CartButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EE0CD0C12B0AC551007D6DDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE0CD0C72B0AC775007D6DDD /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE0CD0E42B0ACF22007D6DDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +154,14 @@
 			dependencies = (
 			);
 			name = JacketECommerceStore;
+			packageProductDependencies = (
+				EE0CD0DA2B0ACEFB007D6DDD /* FirebaseAnalytics */,
+				EE0CD0DC2B0ACEFB007D6DDD /* FirebaseAnalyticsOnDeviceConversion */,
+				EE0CD0DE2B0ACEFB007D6DDD /* FirebaseAnalyticsSwift */,
+				EE0CD0E02B0ACEFB007D6DDD /* FirebaseAnalyticsWithoutAdIdSupport */,
+				EE0CD0E22B0ACEFB007D6DDD /* FirebaseAppCheck */,
+				EE0CD0E52B0ACF22007D6DDD /* FirebaseAuth */,
+			);
 			productName = JacketECommerceStore;
 			productReference = EE0CD0AE2B082D22007D6DDD /* JacketECommerceStore.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +190,9 @@
 				Base,
 			);
 			mainGroup = EE0CD0A52B082D22007D6DDD;
+			packageReferences = (
+				EE0CD0D92B0ACEFB007D6DDD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = EE0CD0AF2B082D22007D6DDD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE0CD0B92B082D24007D6DDD /* Preview Assets.xcassets in Resources */,
+				EE0CD0D82B0ACE4F007D6DDD /* GoogleService-Info.plist in Resources */,
 				EE0CD0B62B082D24007D6DDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +220,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0CD0D22B0ACBF3007D6DDD /* PaymentButton.swift in Sources */,
+				EE0CD0CE2B0ACB13007D6DDD /* CartView.swift in Sources */,
 				EE0CD0B42B082D22007D6DDD /* ContentView.swift in Sources */,
+				EE0CD0D62B0ACC77007D6DDD /* HomeView.swift in Sources */,
+				EE0CD0CA2B0AC7D0007D6DDD /* CartManager.swift in Sources */,
 				EE0CD0B22B082D22007D6DDD /* JacketECommerceStoreApp.swift in Sources */,
+				EE0CD0D42B0ACC1C007D6DDD /* CartButton.swift in Sources */,
+				EE0CD0D02B0ACB45007D6DDD /* ProductRow.swift in Sources */,
+				EE0CD0C82B0AC775007D6DDD /* Product.swift in Sources */,
+				EE0CD0C62B0AC746007D6DDD /* ProductCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +435,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE0CD0D92B0ACEFB007D6DDD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE0CD0DA2B0ACEFB007D6DDD /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE0CD0D92B0ACEFB007D6DDD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		EE0CD0DC2B0ACEFB007D6DDD /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE0CD0D92B0ACEFB007D6DDD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		EE0CD0DE2B0ACEFB007D6DDD /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE0CD0D92B0ACEFB007D6DDD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		EE0CD0E02B0ACEFB007D6DDD /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE0CD0D92B0ACEFB007D6DDD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		EE0CD0E22B0ACEFB007D6DDD /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE0CD0D92B0ACEFB007D6DDD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		EE0CD0E52B0ACF22007D6DDD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE0CD0D92B0ACEFB007D6DDD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EE0CD0A62B082D22007D6DDD /* Project object */;
 }

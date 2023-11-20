@@ -6,12 +6,27 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
-struct JacketECommerceStoreApp: App {
+struct IOAppApp: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let viewModel = AppViewModel()
+            HomeView()
+                .environmentObject(viewModel)
         }
     }
+}
+
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+  func application(_ application: UIApplication,
+                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+    FirebaseApp.configure()
+    return true
+  }
 }
