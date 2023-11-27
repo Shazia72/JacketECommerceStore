@@ -1,0 +1,11 @@
+
+
+Great Work Shazia,
+
+A few comments in general:
+
+- Be careful when creating singletons, like your viewmodel and manager, as they can have strange behaviours or create crashes.
+
+- I noticed that you specified sizes, frames and etc for your SwiftUI views. We're going to discuss this a bit more during the  next few meetings, but SwiftUI has a more declarative approach, where you shouldn't necessarily try to control every detail.
+
+- Your HomeView file contains multiple views and even a viewmodel, which could make it confusing to navigate in the future, try to maintain only a component per file, that could make your life easier

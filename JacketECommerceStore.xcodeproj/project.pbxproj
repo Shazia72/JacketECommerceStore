@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0E5C7802B14D5AC002B5423 /* Comments in Resources */ = {isa = PBXBuildFile; fileRef = A0E5C77F2B14D5AC002B5423 /* Comments */; };
 		EE0CD0B22B082D22007D6DDD /* JacketECommerceStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CD0B12B082D22007D6DDD /* JacketECommerceStoreApp.swift */; };
 		EE0CD0B42B082D22007D6DDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CD0B32B082D22007D6DDD /* ContentView.swift */; };
 		EE0CD0B62B082D24007D6DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0CD0B52B082D24007D6DDD /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0E5C77F2B14D5AC002B5423 /* Comments */ = {isa = PBXFileReference; lastKnownFileType = text; path = Comments; sourceTree = "<group>"; };
 		EE0CD0AE2B082D22007D6DDD /* JacketECommerceStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JacketECommerceStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0CD0B12B082D22007D6DDD /* JacketECommerceStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JacketECommerceStoreApp.swift; sourceTree = "<group>"; };
 		EE0CD0B32B082D22007D6DDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				EE0CD0B12B082D22007D6DDD /* JacketECommerceStoreApp.swift */,
+				A0E5C77F2B14D5AC002B5423 /* Comments */,
 				EE0CD0D72B0ACE4F007D6DDD /* GoogleService-Info.plist */,
 				EE0CD0BF2B0AC519007D6DDD /* Views */,
 				EE0CD0C02B0AC543007D6DDD /* Components */,
@@ -209,6 +212,7 @@
 			files = (
 				EE0CD0B92B082D24007D6DDD /* Preview Assets.xcassets in Resources */,
 				EE0CD0D82B0ACE4F007D6DDD /* GoogleService-Info.plist in Resources */,
+				A0E5C7802B14D5AC002B5423 /* Comments in Resources */,
 				EE0CD0B62B082D24007D6DDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -18,6 +18,7 @@ struct IOAppApp: App {
             let viewModel = AppViewModel()
             HomeView()
                 .environmentObject(viewModel)
+			// maybe using a single viewmodel for the whole application might complicate things in the future, also, if you're using environment objects, be completely sure that they're passed through the hierarchy of views, otherwise you may face runtime crashes.
         }
     }
 }

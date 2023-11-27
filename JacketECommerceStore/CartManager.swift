@@ -18,6 +18,7 @@ class CartManager: ObservableObject {
     
     func removeFromCart(product:Product){
         products = products.filter { $0.id != product.id }
+		// there's a small bug here, if you remove one product, all of the same type ones would be removed as well
         total -= product.price
     }
 }
