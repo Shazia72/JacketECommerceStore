@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+ 
 struct CartView: View {
     @EnvironmentObject var cartManager: CartManager
     var body: some View {
@@ -18,7 +18,7 @@ struct CartView: View {
                 HStack{
                     Text("Your cart total is")
                     Spacer()
-                    Text("$\(cartManager.total).00")
+                    Text("$\(cartManager.total, specifier: "%.2f")")
                         .bold()
                 }
                 .padding()
@@ -28,7 +28,6 @@ struct CartView: View {
             }
                 else{
                     Text("Your cart is empty")
-                
             }
         }
         .navigationTitle(Text("My Cart"))

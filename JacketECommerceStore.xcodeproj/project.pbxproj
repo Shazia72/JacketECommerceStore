@@ -26,6 +26,9 @@
 		EE0CD0E12B0ACEFB007D6DDD /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CD0E02B0ACEFB007D6DDD /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		EE0CD0E32B0ACEFB007D6DDD /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CD0E22B0ACEFB007D6DDD /* FirebaseAppCheck */; };
 		EE0CD0E62B0ACF22007D6DDD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CD0E52B0ACF22007D6DDD /* FirebaseAuth */; };
+		EE2161FB2B18FD1800603673 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2161FA2B18FD1800603673 /* SignInView.swift */; };
+		EE2161FD2B190EDE00603673 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2161FC2B190EDE00603673 /* SignUpView.swift */; };
+		EE2162002B1910F300603673 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2161FF2B1910F300603673 /* AppViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		EE0CD0D32B0ACC1C007D6DDD /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
 		EE0CD0D52B0ACC77007D6DDD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EE0CD0D72B0ACE4F007D6DDD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE2161FA2B18FD1800603673 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		EE2161FC2B190EDE00603673 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		EE2161FF2B1910F300603673 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 			children = (
 				EE0CD0B12B082D22007D6DDD /* JacketECommerceStoreApp.swift */,
 				EE0CD0D72B0ACE4F007D6DDD /* GoogleService-Info.plist */,
+				EE2161FE2B1910D600603673 /* ViewModel */,
 				EE0CD0BF2B0AC519007D6DDD /* Views */,
 				EE0CD0C02B0AC543007D6DDD /* Components */,
 				EE0CD0C12B0AC551007D6DDD /* Models */,
@@ -109,6 +116,8 @@
 				EE0CD0CD2B0ACB13007D6DDD /* CartView.swift */,
 				EE0CD0CF2B0ACB45007D6DDD /* ProductRow.swift */,
 				EE0CD0D52B0ACC77007D6DDD /* HomeView.swift */,
+				EE2161FA2B18FD1800603673 /* SignInView.swift */,
+				EE2161FC2B190EDE00603673 /* SignUpView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -136,6 +145,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE2161FE2B1910D600603673 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE2161FF2B1910F300603673 /* AppViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,12 +240,15 @@
 				EE0CD0D22B0ACBF3007D6DDD /* PaymentButton.swift in Sources */,
 				EE0CD0CE2B0ACB13007D6DDD /* CartView.swift in Sources */,
 				EE0CD0B42B082D22007D6DDD /* ContentView.swift in Sources */,
+				EE2162002B1910F300603673 /* AppViewModel.swift in Sources */,
 				EE0CD0D62B0ACC77007D6DDD /* HomeView.swift in Sources */,
+				EE2161FD2B190EDE00603673 /* SignUpView.swift in Sources */,
 				EE0CD0CA2B0AC7D0007D6DDD /* CartManager.swift in Sources */,
 				EE0CD0B22B082D22007D6DDD /* JacketECommerceStoreApp.swift in Sources */,
 				EE0CD0D42B0ACC1C007D6DDD /* CartButton.swift in Sources */,
 				EE0CD0D02B0ACB45007D6DDD /* ProductRow.swift in Sources */,
 				EE0CD0C82B0AC775007D6DDD /* Product.swift in Sources */,
+				EE2161FB2B18FD1800603673 /* SignInView.swift in Sources */,
 				EE0CD0C62B0AC746007D6DDD /* ProductCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

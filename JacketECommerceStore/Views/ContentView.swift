@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var cartManager = CartManager()
     
-    @EnvironmentObject var viewModel: AppViewModel
+    @EnvironmentObject var viewModel : AppViewModel
     
     var myColumns = [GridItem(.adaptive(minimum: 160), spacing: 20)]
     
@@ -56,5 +56,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView().environmentObject(AppViewModel())
 }

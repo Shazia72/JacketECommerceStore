@@ -15,13 +15,10 @@ struct IOAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            let viewModel = AppViewModel()
             HomeView()
-                .environmentObject(viewModel)
         }
     }
 }
-
 
 class AppDelegate: NSObject, UIApplicationDelegate {
   func application(_ application: UIApplication,
